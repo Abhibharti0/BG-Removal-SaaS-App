@@ -6,7 +6,7 @@ const Testimonials = () => {
     <div className="py-10 sm:py-14">
       <h1
         className="text-center font-semibold 
-                   text-xl sm:text-2xl lg:text-3xl 
+                   text-xl sm:text-3xl lg:text-4xl 
                    leading-snug sm:leading-tight
                    bg-gradient-to-r from-gray-900 to-gray-400
                    bg-clip-text text-transparent"
