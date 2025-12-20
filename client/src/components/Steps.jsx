@@ -8,7 +8,7 @@ const Steps = () => {
         className="text-center font-semibold 
                    text-xl sm:text-3xl lg:text-4xl 
                    leading-snug sm:leading-tight
-                   bg-gradient-to-r from-gray-900  
+                   bg-gradient-to-r from-gray-900 
                    bg-clip-text text-transparent"
       >
         Steps to remove background
