@@ -1,9 +1,19 @@
+import React from 'react'
+import {Routes, Route} from 'react-router-dom'
+import Home from './pages/Home'
+import  Result  from './pages/Home'
+import BuyCredit from './pages/BuyCredit'
+import Navbar from './components/Navbar'
+
 function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-slate-900">
-      <h1 className="text-4xl font-bold text-sky-400">
-        initialise project with Vite + React + TailwindCSS
-      </h1>
+    <div className='min-h-screen bg-slate-50' >
+       <Navbar />
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/result' element={<Result/>}/>
+        <Route path='/buy' element={<BuyCredit/>}/>
+      </Routes>
     </div>
   )
 }
