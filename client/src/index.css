@@ -26,3 +26,7 @@
   background: transparent;
   border: none;
 }
+
+.bg-layer {
+ background-image: url(/bg_layer.png);
+}
